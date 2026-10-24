@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-PT" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SymbolVault – 4500+ símbolos, letras estilizadas e nicks tryhard para jogos</title>
+<meta name="description" content="SymbolVault: mais de 4500 símbolos, kaomoji, letras estilizadas e nicks tryhard para copiar e colar em jogos, Discord, Steam e redes sociais. Gerador de nicks, favoritos e compatibilidade.">
+<link rel="canonical" href="https://symbolvault.net/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#07060f">
+<meta property="og:type" content="website"><meta property="og:site_name" content="SymbolVault"><meta property="og:locale" content="pt_PT">
+<meta property="og:title" content="SymbolVault – 4500+ símbolos, letras estilizadas e nicks tryhard para jogos"><meta property="og:description" content="SymbolVault: mais de 4500 símbolos, kaomoji, letras estilizadas e nicks tryhard para copiar e colar em jogos, Discord, Steam e redes sociais. Gerador de nicks, favoritos e compatibilidade."><meta property="og:url" content="https://symbolvault.net/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2307060f'/%3E%3Ctext x='32' y='45' font-size='38' text-anchor='middle' fill='%2300e5ff'%3E%E2%9C%A6%3C/text%3E%3C/svg%3E">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "name": "SymbolVault – 4500+ símbolos, letras estilizadas e nicks tryhard para jogos", "url": "https://symbolvault.net/", "description": "SymbolVault: mais de 4500 símbolos, kaomoji, letras estilizadas e nicks tryhard para copiar e colar em jogos, Discord, Steam e redes sociais. Gerador de nicks, favoritos e compatibilidade.", "inLanguage": "pt-PT", "isPartOf": {"@type": "WebSite", "name": "SymbolVault", "url": "https://symbolvault.net/"}}, {"@type": "WebApplication", "name": "SymbolVault", "url": "https://symbolvault.net/", "inLanguage": "pt-PT", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Web", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Como uso um símbolo no meu nick?", "acceptedAnswer": {"@type": "Answer", "text": "Clica no símbolo para o copiar e cola-o no campo do nome no jogo. Também podes juntar vários no construtor de nick."}}, {"@type": "Question", "name": "Porque é que o meu jogo não aceita um símbolo?", "acceptedAnswer": {"@type": "Answer", "text": "Muitos jogos só permitem letras, números e alguns sinais. A Epic Games e o Roblox, por exemplo, são restritivos. Testa sempre."}}, {"@type": "Question", "name": "O que significam as etiquetas de compatibilidade?", "acceptedAnswer": {"@type": "Answer", "text": "São uma estimativa baseada no tipo de carácter e não uma garantia."}}, {"@type": "Question", "name": "Os meus favoritos ficam guardados?", "acceptedAnswer": {"@type": "Answer", "text": "Sim, apenas no teu browser (localStorage)."}}]}]}</script>
+<meta name="keywords" content="símbolos para nick, símbolos gamer, letras estilizadas, kaomoji, nicks tryhard, copiar e colar">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#simbolos">Saltar para os símbolos</a>
+<div class="bg" aria-hidden="true"><i></i><i></i><i></i></div>
+
+<header class="bar" id="topo">
+  <div class="bar-row">
+    <a class="brand" href="#topo" aria-label="SymbolVault – início"><span class="logo" aria-hidden="true">✦</span><span>Symbol<b>Vault</b></span></a>
+    <div class="search">
+      <label for="busca" class="sr">Pesquisar símbolos</label>
+      <input id="busca" type="search" placeholder="Pesquisar: coração, coroa, U+2605, seta…  ( / )" autocomplete="off">
+    </div>
+    <label class="sr" for="filtroCompat">Filtrar por compatibilidade</label>
+    <select id="filtroCompat" title="Mostrar só símbolos prováveis em…">
+      <option value="">Todos os jogos</option><option value="epic">Provável: Epic/Fortnite</option><option value="roblox">Provável: Roblox</option><option value="discord">Provável: Discord</option><option value="steam">Provável: Steam</option>
+    </select>
+    <button class="icon-btn" id="tema" aria-label="Alternar tema claro/escuro" title="Tema (T)">◐</button>
+    <button class="icon-btn" id="ajuda" aria-label="Atalhos de teclado" title="Atalhos (?)">⌨</button>
+  </div>
+  <nav class="chips" id="chips" aria-label="Categorias"></nav>
+</header>
+
+<main id="main">
+<section class="hero">
+  <h1 class="titulo"><span class="grad">Symbol</span>Vault</h1>
+  <p class="sub">Clica num símbolo para o copiar e cola-o no teu <strong>nick</strong>: Discord, Steam, Roblox e outros jogos.</p>
+  <ul class="stats" id="stats" aria-label="Estatísticas"></ul>
+  <div class="cta"><a class="btn pri" href="#simbolos">Explorar símbolos ↓</a><a class="btn" href="#predefinicoes">😈 Nicks tryhard</a><a class="btn" href="#builder">🛠 Construtor</a><button class="btn" id="heroRandom" type="button">🎲 Nick aleatório</button></div>
+</section>
+
+<aside class="aviso" role="note">
+  <strong>⚠ Compatibilidade honesta:</strong> cada jogo e plataforma tem regras próprias para nomes. Alguns serviços (por exemplo, a Epic Games e o Roblox) restringem caracteres e podem rejeitar muitos símbolos. As etiquetas aqui são indicativas e <em>sem garantias</em>: testa sempre o nome no jogo antes de o escolheres.
+</aside>
+
+<div class="ad-slot" data-slot="topo" aria-label="Publicidade"></div>
+<section class="painel" id="favoritos-box" hidden aria-labelledby="h-fav">
+  <h2 id="h-fav">♥ Favoritos <button class="btn peq" id="limparFav" type="button">Limpar</button></h2>
+  <div class="grid" id="favoritos"></div>
+</section>
+
+<section class="painel" id="recentes-box" hidden aria-labelledby="h-r">
+  <h2 id="h-r">🕘 Copiados recentemente <button class="btn peq" id="limparRec" type="button">Limpar</button></h2>
+  <div class="grid" id="recentes"></div>
+</section>
+
+<section id="simbolos" tabindex="-1" aria-label="Todos os símbolos"><div id="grelha"></div><p id="vazio" hidden>Nenhum símbolo encontrado. Tenta outra pesquisa ou outro filtro.</p></section>
+
+<div class="ad-slot" data-slot="meio" aria-label="Publicidade"></div>
+<div class="tools-title"><h2>🛠 Ferramentas de nick</h2><p class="mini">Constrói, gera e estiliza o teu nick com tudo o que copiaste acima.</p></div>
+<section class="painel" id="builder" aria-labelledby="h-b">
+  <h2 id="h-b">🛠 Construtor de nick</h2>
+  <div class="prev">
+    <label for="nome" class="sr">O teu nick</label>
+    <input id="nome" type="text" placeholder="Escreve o teu nick e clica nos símbolos para os juntar…" autocomplete="off" maxlength="120">
+    <button class="btn pri" id="copiarNome" type="button">Copiar</button>
+    <button class="btn" id="desfazer" type="button" title="Apagar último símbolo">⌫</button>
+    <button class="btn" id="limparNome" type="button">Limpar</button>
+  </div>
+  <div class="preview-big" id="previewBig" aria-live="polite">Nick</div>
+  <div class="opts">
+    <label class="chk"><input type="checkbox" id="modoNome" checked> Clicar adiciona ao nick</label>
+    <label class="rng">Tamanho <input type="range" id="tam" min="18" max="48" value="26" aria-label="Tamanho dos símbolos"></label>
+    <span id="contagem" class="mini">0 caracteres</span>
+    <span id="compatNome" class="tags"></span>
+  </div>
+</section>
+
+<section class="painel" id="predefinicoes" aria-labelledby="h-p">
+  <h2 id="h-p">😈 Nicks Tryhard <small>(modelos aplicados ao teu nick: leetspeak, glifos, TTV, MLG…)</small></h2>
+  <div class="grid largo" id="presets"></div>
+  <h3 class="sub-h">⚔ Nicks tryhard prontos <small>(clica para copiar)</small></h3>
+  <div class="grid largo" id="tryhardProntos"></div>
+</section>
+
+<section class="painel" id="gerador" aria-labelledby="h-g">
+  <h2 id="h-g">🎲 Gerador aleatório <button class="btn pri peq" id="gerar" type="button">Gerar novos (R)</button></h2>
+  <div class="grid largo" id="aleatorios"></div>
+</section>
+
+<section class="painel" id="fancy" aria-labelledby="h-f">
+  <h2 id="h-f">🔤 Letras estilizadas <small id="fancyN"></small></h2>
+  <p class="mini">Escreve no campo do nick acima (ou usa «Gamer»). Todos os estilos aparecem de uma vez.</p>
+  <div class="grid largo" id="fancyGrid"></div>
+</section>
+
+<section class="painel" id="guias" aria-labelledby="h-guias"><h2 id="h-guias">📚 Guias úteis</h2><div class="guias"><a href="simbolos-nick-fortnite.html"><b>Símbolos para Fortnite/Epic</b><span>O que costuma ser aceite e o que testar</span></a><a href="simbolos-discord.html"><b>Símbolos para Discord</b><span>Nomes de ecrã, alcunhas e estado</span></a><a href="nicks-tryhard.html"><b>Nicks tryhard</b><span>Leetspeak, TTV, MLG e molduras</span></a><a href="letras-estilizadas.html"><b>Letras estilizadas</b><span>Gótico, negrito, cursivo e mais</span></a><a href="kaomoji.html"><b>Kaomoji</b><span>Caras japonesas para copiar</span></a></div></section>
+<section class="painel faq" id="faq" aria-labelledby="h-faq">
+  <h2 id="h-faq">❓ Perguntas frequentes</h2>
+  <details><summary>Como uso um símbolo no meu nick?</summary><p>Clica no símbolo para o copiar e cola-o (Ctrl+V) no campo do nome no jogo. Também podes juntar vários no construtor de nick e copiar tudo de uma vez.</p></details>
+  <details><summary>Porque é que o meu jogo não aceita um símbolo?</summary><p>Muitos jogos só permitem letras, números e alguns sinais. A Epic Games e o Roblox, por exemplo, são restritivos nos nomes de utilizador. Experimenta símbolos diferentes ou usa-os apenas no nome de ecrã, quando permitido.</p></details>
+  <details><summary>O que significam as etiquetas de compatibilidade?</summary><p>São uma estimativa baseada no tipo de carácter: «provável» significa que normalmente é aceite; «pode não funcionar» significa que há risco de ser rejeitado ou de aparecer como quadrado. As regras mudam, por isso testa sempre.</p></details>
+  <details><summary>Alguns símbolos aparecem como quadrados. Porquê?</summary><p>O tipo de letra do jogo ou do dispositivo pode não incluir esse carácter. Os símbolos são texto Unicode e o aspeto depende de quem o lê.</p></details>
+  <details><summary>Os meus favoritos e recentes ficam guardados?</summary><p>Sim, apenas no teu browser (localStorage). Nada é enviado para servidores.</p></details>
+  <details><summary>Posso usar os símbolos livremente?</summary><p>Sim. São caracteres Unicode de uso comum. O SymbolVault é independente e não tem ligação a nenhuma marca de jogos.</p></details>
+</section>
+</main>
+<div class="ad-slot" data-slot="fundo" aria-label="Publicidade"></div>
+
+<footer>
+<nav class="foot-links" aria-label="Rodapé"><a href="sobre.html">Sobre</a><a href="privacidade.html">Política de Privacidade</a><a href="termos.html">Termos de Utilização</a><a href="contacto.html">Contacto</a><button type="button" data-cookie-settings>Gerir cookies</button></nav>
+<strong>SymbolVault</strong> · Feito para gamers 🎮 · Projeto independente, sem ligação a qualquer editora de jogos. Todas as marcas pertencem aos respetivos donos.<br>© 2026 SymbolVault · <a href="#topo">Voltar ao topo ↑</a>
+</footer>
+
+<div class="mini-nick" id="miniNick" hidden><span class="mn-t" id="miniTxt" aria-live="polite"></span><button class="btn pri peq" id="miniCopiar" type="button">Copiar nick</button><a class="btn peq" href="#builder">Editar</a><button class="btn peq" id="miniLimpar" type="button" aria-label="Limpar nick">✕</button></div>
+<div id="info" class="info" aria-hidden="true"></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<canvas id="fx" aria-hidden="true"></canvas>
+<dialog id="dlg"><h2>Atalhos de teclado</h2>
+<ul class="keys"><li><kbd>/</kbd> Pesquisar</li><li><kbd>N</kbd> Campo do nick</li><li><kbd>C</kbd> Copiar o nick</li><li><kbd>R</kbd> Gerar nicks aleatórios</li><li><kbd>T</kbd> Alternar tema</li><li><kbd>F</kbd> Favorito (símbolo em foco)</li><li><kbd>Esc</kbd> Limpar pesquisa / fechar</li><li><kbd>?</kbd> Esta ajuda</li></ul>
+<form method="dialog"><button class="btn pri">Fechar</button></form></dialog>
+<script src="js/config.js"></script>
+<script src="js/data.js"></script>
+<script src="js/nicks.js"></script>
+<script src="js/app.js"></script>
+<script src="js/consent.js"></script>
+</body>
+</html>
