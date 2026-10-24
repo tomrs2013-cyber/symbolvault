@@ -1,0 +1,5 @@
+screenshots/
+build_site.py
+.venv/
+venv/
+__pycache__/
